@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>CLB Khối Trường Nguyễn Bỉnh Khiêm</title>
+  <style>
+    /* Reset CSS cơ bản */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      position: relative;
+      width: 100%;
+      height: 450px;
+      background: url('https://file1.hutech.edu.vn/file/news/1_2_1-1561451679.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    header .overlay {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    header h1 {
+      position: relative;
+      color: #fff;
+      font-size: 3rem;
+      z-index: 1;
+    }
+
+    /* Khu vực giới thiệu 3 cột: Năng động - Đam mê - Tỏa sáng */
+    .intro-section {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 0;
+      background-color: #f8f8f8;
+    }
+
+    .intro-item {
+      width: 30%;
+      text-align: center;
+      padding: 20px;
+      background: #fff;
+      margin: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .intro-item h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #e74c3c;
+    }
+
+    .intro-item p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    /* Khu vực Học sinh - Chơi đỉnh (thành tích) */
+    .achievement-section {
+      display: flex;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .achievement-text {
+      width: 50%;
+      padding-right: 20px;
+    }
+
+    .achievement-text h2 {
+      margin-bottom: 15px;
+      font-size: 1.8rem;
+      color: #2c3e50;
+    }
+
+    .achievement-text ul {
+      margin-left: 20px;
+      list-style: disc;
+    }
+
+    .achievement-text ul li {
+      margin-bottom: 5px;
+    }
+
+    .achievement-img {
+      width: 50%;
+      text-align: center;
+    }
+
+    .achievement-img img {
+      max-width: 80%;
+      border-radius: 8px;
+    }
+
+    /* Khu vực CLB Thể thao */
+    .club-section {
+      display: flex;
+      align-items: center;
+      padding: 40px;
+      background-color: #f2f2f2;
+    }
+
+    .club-img {
+      width: 50%;
+      text-align: center;
+    }
+
+    .club-img img {
+      max-width: 80%;
+      border-radius: 8px;
+    }
+
+    .club-text {
+      width: 50%;
+      padding-left: 20px;
+    }
+
+    .club-text h2 {
+      margin-bottom: 15px;
+      font-size: 1.8rem;
+      color: #2c3e50;
+    }
+
+    .club-text ul {
+      margin-left: 20px;
+      list-style: disc;
+    }
+
+    /* Khu vực CLB Nghệ thuật */
+    .art-section {
+      display: flex;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .art-text {
+      width: 50%;
+      padding-right: 20px;
+    }
+
+    .art-text h2 {
+      margin-bottom: 15px;
+      font-size: 1.8rem;
+      color: #2c3e50;
+    }
+
+    .art-text ul {
+      margin-left: 20px;
+      list-style: disc;
+    }
+
+    .art-img {
+      width: 50%;
+      text-align: center;
+    }
+
+    .art-img img {
+      max-width: 80%;
+      border-radius: 8px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Banner / Header -->
+  <header>
+    <div class="overlay"></div>
+    <h1>Câu lạc bộ ngoại khoá Trường Nguyễn Bỉnh Khiêm</h1>
+  </header>
+
+  <!-- 3 cột giới thiệu: Năng động, Đam mê, Tỏa sáng -->
+  <section class="intro-section">
+    <div class="intro-item">
+      <h2>Năng động</h2>
+      <p>
+        Hoạt động củng cố và hiệu quả
+      </p>
+    </div>
+    <div class="intro-item">
+      <h2>Đam mê</h2>
+      <p>
+        Cháy hết mình trong các cuộc chơi
+      </p>
+    </div>
+    <div class="intro-item">
+      <h2>Tỏa sáng</h2>
+      <p>
+        Giành những giải thưởng cao nhất
+      </p>
+    </div>
+  </section>
+
+  <!-- Khu vực thành tích: Học sinh - Chơi đỉnh -->
+  <section class="achievement-section">
+    <div class="achievement-text">
+      <h2>Học siêu - Chơi đỉnh</h2>
+      <ul>
+        <li>03 HCV bơi lội</li>
+        <li>02 HCV, 06 HCB và 05 HCĐ Võ thuật</li>
+        <li>01 giải ba môn Bóng đá nam</li>
+        <li>01 giải nhì Hội thi biểu diễn âm nhạc</li>
+      </ul>
+    </div>
+    <div class="achievement-img">
+      <img src="https://gialai.edu.vn/upload/20374/fck/64000708/2024_01_11_07_17_2910.png" alt="Thành tích học sinh" />
+    </div>
+  </section>
+
+  <!-- Khu vực CLB Thể thao -->
+  <section class="club-section">
+    <div class="club-img">
+      <img src="https://aokhoacnam.vn/upload/images/views/b%C6%A1i%20nam/cach-nhan-biet-be-boi-chat-luong-2.jpg" alt="CLB Thể thao" />
+    </div>
+    <div class="club-text">
+      <h2>CLB Thể thao</h2>
+      <ul>
+        <li>Bóng đá</li>
+        <li>Bóng chuyền</li>
+        <li>Bóng rổ</li>
+        <li>Cầu lông</li>
+        <li>Võ thuật</li>
+        <li>Bơi lội</li>
+      </ul>
+      <p>
+        Các CLB thể thao giúp rèn luyện thể lực, tinh thần đồng đội, và ý chí quyết thắng.
+      </p>
+    </div>
+  </section>
+
+  <!-- Khu vực CLB Nghệ thuật -->
+  <section class="art-section">
+    <div class="art-text">
+      <h2>CLB Nghệ thuật</h2>
+      <ul>
+        <li>Mỹ thuật</li>
+        <li>Nhiếp ảnh</li>
+        <li>Âm nhạc</li>
+        <li>Khiêu vũ</li>
+      </ul>
+      <p>
+        Tại đây, học sinh được thỏa sức sáng tạo và bộc lộ năng khiếu nghệ thuật.
+      </p>
+    </div>
+    <div class="art-img">
+      <img src="https://cdn-blog.kynaenglish.vn/blog/wp-content/uploads/2018/08/viec-day-be-hoc-ve-nen-thoai-mai-de-tre-sang-tao.jpg" alt="CLB Nghệ thuật" />
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 - Trường Nguyễn Bỉnh Khiêm | Câu lạc bộ khối</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
